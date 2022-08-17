@@ -5,7 +5,7 @@ public class Thread2 implements Runnable
 {
     public void run()
     {
-        System.out.println(Thread.currentThread().getName());
+        System.out.println("The Thread Name is : "+Thread.currentThread().getName());
     }
     public static void main(String[] args)
     {
